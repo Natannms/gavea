@@ -2,7 +2,7 @@ services:
 
   mysql:
     image: mysql:8
-    container_name: mysql-simohu
+    container_name: mysql-gaveaagencia
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
@@ -14,7 +14,7 @@ services:
 
   redis:
     image: "redis:latest"
-    container_name: redis-simohu
+    container_name: redis-gaveaagencia
     restart: always
     ports:
       - "6379:6379"
